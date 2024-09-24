@@ -20,5 +20,7 @@ function sendMail(){
         console.log(res);
         alert("your message send successfully");
     }
-).catch(err=>console.log(err))
+).catch(err=>{console.log(err)
+alert("no message")})
+
 }
